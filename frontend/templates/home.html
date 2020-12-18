@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Halvor - Home</title>
+
+    <link rel="stylesheet" href="{% static 'assets/css/plugin.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/fonts/font-awesome/css/all.css' %}">
+    
+</head>
+
+<body>
+{% block body %}
+
+  
+{% endblock body %}
+
+<footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1 text-center">
+                        <div class="to-touch">
+                            <div class="bg-footer" id="headmove-3">
+                                <div data-depth="0.2" class="img-line">
+                                    <img src="{% static 'assets/img/lines.png' %}" alt="">
+                                </div>
+                            </div>
+                            <h2>GET IN TOUCH WITH US !</h2>
+                            <p>Creative team to your disposal</p>
+                            <div class="button_su mt-10">
+                                <span class="su_button_circle">
+                                </span>
+                                <a href="contact.html" class="button_su_inner load-halvor">
+                                    <span class="button_text_container">
+                                        GET STARTED
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 text-center mt-40">
+                        <div class="nav-footer">
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">WORK</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#">SERVICES</a></li>
+                                <li><a href="#">BLOG</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 text-center text-md-right mt-30">
+                        <div class="copy">
+                            <p>Made with ♥ by Esensifiksi.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 text-center text-md-left mt-30">
+                        <div class="social-footer">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-behance" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </div>
+    <!-- End Content -->
+
+    <script src="{% static '/assets/js/plugin.js' %}"></script>
+    <script src="{% static '/assets/js/main.js' %}"></script>
+</body>
+
+</html>
